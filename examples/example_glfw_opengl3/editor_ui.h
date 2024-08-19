@@ -4,8 +4,6 @@ class editor_ui
 
 
 public:
-    void set_style();
-
     void draw();
 
 
@@ -21,8 +19,6 @@ private:
     void draw_detail_panel();
 
     void draw_status();
-
-    void draw_test();
 private:
     bool ShowMetrics = false;
     bool ShowDebugLog = false;
